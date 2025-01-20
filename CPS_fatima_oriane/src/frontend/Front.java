@@ -9,7 +9,7 @@ import fr.sorbonne_u.cps.dht_mapreduce.interfaces.mapreduce.ProcessorI;
 import fr.sorbonne_u.cps.dht_mapreduce.interfaces.mapreduce.ReductorI;
 import fr.sorbonne_u.cps.dht_mapreduce.interfaces.mapreduce.SelectorI;
 
-public class Facade implements DHTServicesI{
+public class Front implements DHTServicesI{
 
 	@Override
 	public ContentDataI get(ContentKeyI key) throws Exception {
